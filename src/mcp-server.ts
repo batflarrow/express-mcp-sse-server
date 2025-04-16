@@ -55,8 +55,7 @@ mcpServer.tool(
   weatherInputSchema,
   async (input) => {
     try {
-      // Call a sample weather API (replace with a real API key and endpoint)
-      const apiKey = "your_api_key_here"; // Replace with your actual API key
+      const apiKey = process.env.OPEN_WEATHER_API_KEY;
       const response = await axios.get(
         `https://api.openweathermap.org/data/2.5/weather`,
         {
