@@ -40,7 +40,7 @@ yarn dev
 
 This will run the server with the MCP inspector for debugging.
 
-![dev-ss](./public/dev-ss.png)
+![dev-ss](./public/mcp-inspector.png)
 
 To start the server in production mode:
 
